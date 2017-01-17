@@ -4,6 +4,8 @@
 ## PhoneGap App
 Práctica módulo 2 del MOOC https://miriadax.net/web/creando-apps-aprende-a-programar-aplicaciones-moviles
 
+![alt text](screenshots/app.png "screenshots")
+
 ### Plugin
 $ cordova plugin add cordova-plugin-file
 
