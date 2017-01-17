@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/camera.css" />
+    <title>Camera</title>
+  </head>
+  <body>
+	
+	<header>
+		<span class="glyphicon glyphicon-camera" aria-hidden="true"></span>
+		<span>Mi Cámara con Filtros</span>
+	</header>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12">
+				<canvas id="foto"></canvas>
+			</div>
+		</div>
+		
+		<div class="row actions">
+			<div class="col-xs-3">
+				<button type="button" class="btn btn-default button-filter"><span class="glyphicon glyphicon-erase" aria-hidden="true"></span><br>Reset</button>
+			</div>
+			<div class="col-xs-3">
+				<button type="button" class="btn btn-default button-filter"><span class="glyphicon glyphicon-adjust" aria-hidden="true"></span><br>B&amp;N</button>
+			</div>
+			<div class="col-xs-3">
+				<button type="button" class="btn btn-default button-filter"><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span><br>Negativo</button>
+			</div>
+			<div class="col-xs-3">
+				<button type="button" class="btn btn-default button-filter"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span><br>Sepia</button>
+			</div>
+		</div>
+		
+		<div class="row actions">
+			<div class="col-xs-4">
+				<button type="button" class="btn btn-success" id="button-action"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span><br>Cámara</button>
+			</div>
+			<div class="col-xs-4">
+				<button type="button" class="btn btn-danger" id="button-save"><span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span><br>Guardar</button>
+			</div>
+			<div class="col-xs-4">
+				<button type="button" class="btn btn-success" id="button-gallery"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span><br>Galería</button>
+			</div>
+		</div>
+	</div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/fastclick.js"></script>
+    <script type="text/javascript" src="js/effects.js"></script>
+    <script type="text/javascript" src="js/camera.js"></script>
+  </body>
+</html>
